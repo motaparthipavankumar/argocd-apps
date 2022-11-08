@@ -1,0 +1,9 @@
+resources:
+- echo.yaml
+- deployment.yaml
+- service.yaml
+- ingress.yaml
+- correlationid.yaml
+- ratelimiting.yaml
+- ingress_plugin.yaml
+- namespace.yaml
