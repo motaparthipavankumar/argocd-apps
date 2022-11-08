@@ -1,5 +1,5 @@
 resources:
-- echo.yaml
+#- echo.yaml
 - deployment.yaml
 - service.yaml
 - ingress.yaml
