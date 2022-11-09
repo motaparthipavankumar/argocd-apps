@@ -4,7 +4,7 @@ kind: Ingress
 metadata:
   name: demo
 spec:
-  ingressClassName: kong
+  ingressClassName: default
   rules:
   - http:
       paths:
