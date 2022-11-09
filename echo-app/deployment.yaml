@@ -18,7 +18,7 @@ spec:
         app: echo
     spec:
       containers:
-      - image: gcr.io/kubernetes-e2e-test-images/echoserver:2.2
+      - image: cilium/echoserver:latest
         name: echo
         ports:
         - containerPort: 8080
