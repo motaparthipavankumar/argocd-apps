@@ -18,7 +18,7 @@ spec:
         app: echo
     spec:
       containers:
-      - image: cilium/echoserver:latest
+      - image: e2eteam/echoserver:2.2-linux-arm64
         name: echo
         ports:
         - containerPort: 8080
