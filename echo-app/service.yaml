@@ -9,6 +9,8 @@ metadata:
   name: echo
   namespace: echo
 spec:
+  type: ExternalName
+  externalName: example.com
   ports:
   - port: 8080
     name: high

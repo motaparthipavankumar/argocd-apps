@@ -13,7 +13,6 @@ spec:
         pathType: ImplementationSpecific
         backend:
           service:
-            host: example.com
             name: echo
             port:
               number: 80
