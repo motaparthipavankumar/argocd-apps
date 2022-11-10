@@ -19,7 +19,7 @@ spec:
         app: echo
     spec:
       containers:
-      - image: e2eteam/echoserver:2.2-linux-arm64
+      - image: ealen/echo-server
         name: echo
         ports:
         - containerPort: 8080
