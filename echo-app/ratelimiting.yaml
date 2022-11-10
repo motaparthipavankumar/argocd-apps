@@ -3,7 +3,6 @@ apiVersion: configuration.konghq.com/v1
 kind: KongPlugin
 metadata:
   name: rl-by-ip
-  namespace: echo
 config:
   minute: 5
   limit_by: ip

@@ -5,7 +5,6 @@ metadata:
   labels:
     app: echo
   name: echo
-  namespace: echo
 spec:
   replicas: 1
   selector:
